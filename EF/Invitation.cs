@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EF
 {
-    public class Invitation
+    public class Invitation:Base
     {
         public string Content { get; set; }
         public string Head { get; set; }

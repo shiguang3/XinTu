@@ -13,8 +13,8 @@ namespace EF
 
         public string Pwd { get; set; }
 
-        public byte LoginErrorNum { get; set; }
-        public DateTime LastLoginErrorTime { get; set; }
+        public byte LoginErrorNum { get; set; } = 0;
+        public DateTime LastLoginErrorTime { get; set; } = DateTime.Now;
 
     }
 }
